@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> partials/head title="Evidently"}}
+  </head>
+  <body class="bg-light">
+
+    <!-- MODALS -->
+    {{> modals/modal-signup-horizontal }}
+
+    <!-- NAVBAR -->
+    {{> partials/navbar classList="navbar-light" container="container-fluid" button="primary"}}
+
+    <!-- WELCOME -->
+    <section class="position-relative py-8 py-md-11 mb-9">
+
+      <!-- Shape -->
+      <div class="shape shape-fluid-x shape-blur-1 text-gray-200">
+        {{> blurs/blur-1}}
+      </div>
+
+      <!-- Content -->
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6 order-md-2">
+
+            <!-- Image -->
+            <div class="img-skewed img-skewed-start mb-8 mb-md-0">
+              <img src="assets/img/screenshots/desktop/dashboard.png" alt="..." class="screenshot img-fluid mw-md-130"  data-aos="img-skewed-item-start" data-aos-delay="100">
+            </div>
+
+          </div>
+          <div class="col-12 col-md-6 order-md-1" data-aos="fade-up">
+
+            <!-- Heading -->
+            <h1 class="display-4">
+            Privacy-compliant evidence collection and participant verification software<span class="text-primary"> for organizations building privacy class actions.</span>
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-6 mb-md-8">
+              .
+            </p>
+
+            <!-- Buttons -->
+
+            <a data-bs-toggle="modal" href="#modalSignupHorizontal" class="btn btn-primary me-1 lift">
+              Learn more <i class="fe fe-arrow-right ms-3"></i>
+            </a>
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+
+    <!-- HUB -->
+    <section class="pt-2 pt-md-4 pb-2 pb-md-4 pb-lg-6">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg col-12 col-s-12">
+
+            <!-- Heading -->
+            <h2>
+              Build evidence<br>
+              <span class="text-primary">while preserving privacy</span>
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-gray-700 mb-6">
+              Our tools and personal data stores allow class actions lawsuits to efficiently crowdsource evidence from their class - in full compliance with data protection laws (e.g. GDPR and CCPA).
+            </p>
+            
+           
+            <!-- Item -->
+           <div class="d-flex">
+
+            <!-- Check -->
+            <span class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </span>
+
+            <!-- Text -->
+            <p class="text-success">
+              Privacy compliant
+            </p>
+          </div>
+
+            </div>
+         
+
+            <div class="col-lg col-12 col-s-12">
+
+              <!-- Heading -->
+              <h2>
+                Quickly verify<br>
+                <span class="text-primary">participant eligibility</span>
+              </h2>
+  
+              <!-- Text -->
+              <p class="fs-lg text-gray-700 mb-6">
+                Our AI-driven software enables potential participants to securely upload documents to automatically verify their eligibility on their device. 
+              </p>
+
+               <!-- Item -->
+           <div class="d-flex">
+
+            <!-- Check -->
+            <span class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </span>
+
+            <!-- Text -->
+            <p class="text-success">
+              Verify participants
+            </p>
+          </div>
+
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- HUB -->
+    <section class="pt-2 pt-md-4 pb-2 pb-md-4 pb-lg-6">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg col-12 col-s-12">
+
+            <!-- Heading -->
+            <h2>
+              Securely store data<br>
+              <span class="text-primary">in personal data stores</span>
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-gray-700 mb-6">
+            Personal data is stored in a strongly encrypted, state-of-the-art personal data store that is controlled by the individual participant.</p>
+
+             <!-- Item -->
+           <div class="d-flex">
+
+            <!-- Check -->
+            <span class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </span>
+
+            <!-- Text -->
+            <p class="text-success">
+              Personal data stores
+            </p>
+          </div>
+          </div>
+
+            <div class="col-lg col-12 col-s-12">
+
+              <!-- Heading -->
+              <h2>
+                Share and request data<br>
+                <span class="text-primary">with auditable consent</span>
+              </h2>
+  
+              <!-- Text -->
+              <p class="fs-lg text-gray-700 mb-6">
+                Data stored in personal data stores can only be shared with verified third parties and with auditable consent from the data holder.
+              </p>
+               <!-- Item -->
+           <div class="d-flex">
+
+            <!-- Check -->
+            <span class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </span>
+
+            <!-- Text -->
+            <p class="text-success">
+              Consent
+            </p>
+          </div>
+
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-white">
+        {{> curves/curve-3}}
+      </div>
+    </div>
+
+      <!-- TEAM -->
+
+      <section class="pt-lg-10 pt-md-10 pt-6 pb-2 pb-md-4 pb-lg-6">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-lg col-12 col-s-12 py-4">
+              <span class="badge rounded-pill bg-success-soft mb-5">
+                <span class="h1">Our Team</span>
+              </span>
+              </div>
+              </div>
+  
+              <!-- Heading -->
+              <div class="row align-items-left justify-content-between">
+                <div class="col-lg col-12 col-s-12">
+
+                <img src="assets/img/avatars/anouk.jpg" class="mb-4" height="auto" width="120vw" style="border-radius: 50%;"/>
+                <!-- Heading -->
+                <h2><span class="text-primary">Anouk Ruhaak</span>
+                <h4><span class="text-primary">CEO & Founder</span></h4>
+                </h2>
+    
+                <!-- Text -->
+                <p class="fs-lg text-gray-700 mb-6">
+                  Anouk Ruhaak is an expert in data governance and privacy. As a former Senior Fellow at the Mozilla Foundation, she designed and implemented data governance models. Anouk currently serves as the Chair of SDBN, a foundation that brings privacy class actions in the Netherlands. She previously worked as a software developer for numerous startups, and started multiple communities in the tech space.</p>  
+             </div>
+              <div class="col-lg col-12 col-s-12">
+              <img src="assets/img/avatars/josh.jpeg" class="mb-4" height="auto" width="120vw" style="border-radius: 50%;" />
+              <h2><span class="text-primary">Joshua McKenty</span>
+              <h4><span class="text-primary">Advisor</span></h4>
+              </h2>
+  
+              <!-- Text -->
+              <p class="fs-lg text-gray-700 mb-6">
+                Joshua is a seasoned entrepreneur and CEO of Delving. He co-founded OpenStack and Piston, led the development team for Netscape 8 and AOL's IE AIM toolbar.
+            </div>
+                
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section> 
+
+
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-white">
+        {{> curves/curve-3}}
+      </div>
+    </div>
+
+    <!-- CUSTOMIZE -->
+    <section class="pt-10 pb-8 py-lg-12 pt-md-10">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-6 col-lg-5 order-md-2">
+
+            <!-- Badge -->
+            <span class="badge rounded-pill bg-primary-soft mb-3">
+              <span class="h6 text-uppercase">Intuitive interface</span>
+            </span>
+
+            <!-- Heading -->
+            <h2>
+              Enable your class action members to safely <br>
+              <span class="text-primary">collect, store and share evidence.</span>
+            </h2>
+
+            <!-- Text -->
+            <p class="fs-lg text-gray-700 mb-md-0">
+              Stop emailing documents around and build evidence quickly, while staying compliant with data protection laws. <br><br> Enable your  class action members to gather evidence for your case, prove their eligibility, securely store their data and share it with you - with auditable consent.</p><br>
+
+          </div>
+          <div class="col-12 col-md-6 order-md-1" data-aos="fade-up">
+
+            <!-- Macbook -->
+            <div class="w-100 w-md-130 float-end mb-6 mb-md-0">
+
+              <!-- Shape -->
+              <div class="shape shape-blur-4 text-gray-200">
+                {{> blurs/blur-4}}
+              </div>
+
+              <!-- Device -->
+              <div class="device device-macbook">
+                <img src="assets/img/screenshots/desktop/user_flow.png" class="device-screen" alt="...">
+                <img src="assets/img/devices/macbook.svg" class="img-fluid" alt="...">
+              </div>
+
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- CURVE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-light">
+        {{> curves/curve-6}}
+      </div>
+    </div>
+
+   
+    
+
+    <!-- CTA -->
+    <section class="py-8 py-md-8 py-lg-10 bg-dark" style="background-image: url(assets/img/patterns/pattern-1.svg);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <!-- Badge -->
+            <span class="badge rounded-pill bg-gray-700-soft mb-3">
+              <span class="h6 text-uppercase">Get started</span>
+            </span>
+
+            <!-- Heading -->
+            <h1 class="display-4 text-white">
+              Get Evidently today
+            </h1>
+
+            <!-- Text -->
+            <p class="fs-lg text-info mb-6 mb-md-8">
+              Start crowdsourcing evidence for privacy class actions.  </p>
+
+            <!-- Button -->
+            <a data-bs-toggle="modal" href="#modalSignupHorizontal" class="btn btn-primary-desat lift">
+              Learn more <i class="fe fe-arrow-right ms-2"></i>
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- CURVE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-gray-200">
+        {{> curves/curve-1}}
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    {{> partials/footer classList="bg-gray-200"}}
+
+    <!-- JAVASCRIPT -->
+    {{> partials/scripts}}
+
+  </body>
+</html>

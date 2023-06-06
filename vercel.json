@@ -1,0 +1,8 @@
+{
+    "redirects": [
+        {
+            "source": "/.well-known/:path(.*)",
+            "destination": "https://mastodon.herdwise.io/.well-known/:path"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+$primary: #5F00BA;
+$body-color: #383D3B;
+$success: #FA8C0F;
+$text-muted: #9590A8;
+$navbar-brand-height: 5rem;
+$info: #FA8C0F;
+$primary-desat: #FA8C0F;
+$dark: #051738;
+$info: #F5EBFF;
+
+.modal-open .img-skewed {
+        visibility: hidden;
+}
+@media (min-width: 992px) {
+    .modal-open .img-skewed {
+        visibility: visible;
+    }
+}
