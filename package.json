@@ -1,10 +1,15 @@
 {
-  "name": "landkit",
-  "version": "2.2.0",
+  "name": "evidently",
+  "version": "1.0.0",
   "description": "",
+  "repository": {
+    "url": "git+https://github.com/evidentlyhq/evidentlyhq.git"
+  },
   "scripts": {
     "start": "webpack serve --open",
-    "build": "del-cli dist && webpack --mode production"
+    "build": "del-cli dist && webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
